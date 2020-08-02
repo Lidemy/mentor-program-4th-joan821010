@@ -1,0 +1,46 @@
+.wrapper {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.note {
+  padding: 10px 20px;
+}
+
+.note-header {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.note-header__title {
+	padding: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.note-header__input {
+  margin-left: 25px;
+}
+
+.note-list {
+	padding: 10px 20px;
+	text-align: left;
+}
+
+.note-list__item {
+	margin: 5px 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.note-list__item label {
+  display: inline-block;
+}
+
+.note-list__item button {
+  display: inline-block;
+}
+
+.note-list__item.done label {
+  text-decoration: line-through;
+}

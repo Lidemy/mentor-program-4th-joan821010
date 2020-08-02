@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="note">
+        <header class="note-header">
+          <h1 class="note-header__title">Todo List</h1>
+          <div class="note-header__input">
+            <form class="submit-form">
+              <input type="text">
+              <input type="submit" value="add">
+            </form>
+          </div>
+        </header>  
+        <div class="note-list">
+          <div class="note-list__item">
+            <label><input class="checkbox" type="checkbox">運動</label>
+            <button class="btn-del" type="button">delete</button>
+          </div>
+          <div class="note-list__item">
+            <label><input class="checkbox" type="checkbox">看書</label>
+            <button class="btn-del" type="button">delete</button>
+          </div>
+          <div class="note-list__item">
+            <label><input class="checkbox" type="checkbox">hw3</label>
+            <button class="btn-del" type="button">delete</button>
+          </div>
+        </div>
+
+      </div>
+    </div>	
+    <script src="./index.js"></script>
+  </body>
+</html>
+
