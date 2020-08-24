@@ -1,0 +1,227 @@
+
+
+.navbar {
+  box-shadow: -1.4px -1.4px 6px 0 #97a2a0;
+}
+
+.navbar .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 84px;
+  background-color: #ffffff;
+  padding: 0px 20px;
+}
+
+.navbar__sites-name {
+  font-family: Questrial;
+  font-size: 36px;
+  color: #489846;
+}
+
+.navbar__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-size: 18px;
+  font-family: MicrosoftJhengHei;
+}
+
+.navbar__list li {
+  margin-left: 12px;
+  border-radius: 8px;
+  transition: background 0.1s;
+}
+
+.navbar__list li.active, .navbar__list li:hover {
+  background: #ff7286;
+}
+
+.navbar__list li.active a, .navbar__list li:hover a {
+  color: white;
+}
+
+.navbar__list li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 14px 25px;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0px 12px;
+}
+
+h2 {
+  margin: 0;
+}
+
+.raffle {
+  background: url(games-bn.png) center/cover no-repeat;
+  height: 700px;
+  padding: 50px 12px;
+}
+
+.raffle-block {
+  background: #ffffff;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 16px;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.raffle-block__title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #5ec1b6;
+  padding: 20px 20px;
+}
+
+.raffle-block__desc {
+  text-align: left;
+  padding: 20px 0px;
+  display: flex;
+  align-items: flex-start;
+  border-bottom: solid 1px #cdcdcd;
+}
+
+.raffle-block__desc h2 {
+  font-size: 18px;
+  color: #322929;
+  line-height: 26px;
+}
+
+.raffle-block__desc div {
+  flex: 1;
+  line-height: 26px;
+  font-size: 16px;
+  color: #322929;
+  margin-left: 15px;
+}
+
+.raffle-block__btn {
+  font-size: 20px;
+  color: white;
+  background: #e62a45;
+  padding: 18px 160px;
+  border-radius: 8px;
+  border-style: none;
+  margin-top: 36px;
+  margin-bottom: 5px;
+  cursor: pointer;
+
+}
+
+.first {
+  background: url(flight.jpg) center/cover no-repeat;
+  height: 600px;
+  padding: 50px 12px;
+  text-align: center;
+  font-size: 36px;
+}
+
+.second {
+  background: url(living-room.jpg) center/cover no-repeat;
+  height: 600px;
+  padding: 50px 12px;
+  text-align: center;
+  font-size: 36px;
+}
+
+.third {
+  background: url(youtube.jpg) center/cover no-repeat;
+  height: 600px;
+  padding: 50px 12px;
+  text-align: center;
+  font-size: 36px;
+}
+
+.none {
+  background: black;
+  height: 600px;
+  padding: 50px 12px;
+  text-align: center;
+  color: white;
+  font-size: 36px;
+}
+
+
+
+.footer__bottom {
+  background: #35564b;
+  padding: 12px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.footer__top {
+  background: #e8efee;
+  padding: 32px;
+  color: #484848;
+  font-size: 14px;
+}
+
+.footer__top .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__info {
+  margin-right: 16px;
+}
+
+.footer__info div + div {
+  margin-top: 10px;
+}
+
+.footer__site {
+  font-size: 36px;
+  color: #489846;
+}
+
+@media(max-width: 768px) {
+  .navbar .wrapper {
+    height: 120px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px;
+  }
+
+  .navbar__sites-name {
+    margin-top: 10px;
+  }
+
+  .navbar__list {
+    display: flex;
+    width: 100%;
+  }
+
+  .navbar__list li {
+    flex: 1;
+    margin-left: 0px;
+    border-radius: 0px;
+    text-align: center;
+  }
+  
+
+  .raffle-block__btn {
+    width: 100%;
+    padding: 18px;
+  }
+
+
+  .footer__top .wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .footer__info {
+    margin-right: 0;
+    margin-top: 16px;
+  }
+}
